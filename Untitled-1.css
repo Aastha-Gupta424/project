@@ -1,0 +1,98 @@
+body {
+    background-image: url('https://wilcity.com/wp-content/uploads/2018/12/car-desktop-wallpapers-awesome-6-unique-wallpaper-car-car-wallpaper-hd-of-car-desktop-wallpapers.jpg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   
+    
+ }
+
+ h1{
+     font-style: italic;
+     
+ }
+ h6{
+     font-size: 15px;
+ }
+ #content {
+text-align: center;
+padding: 5%;
+color: black;
+}
+ nav {
+     background-color: rgba(0, 0, 0, 0.1);
+  
+ }
+ 
+ .navbar-brand {
+     font-size: 25px;
+     color: rgb(0, 63, 146);
+ }
+ strong{
+     font-size: 35px;
+ }
+ 
+ 
+ .navbar-brand:hover{
+     background-color: rgb(236, 243, 248);
+     color: rgb(8, 8, 8);
+ }
+
+
+ @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+
+
+#el:before {
+  background: #fbfbfb;
+  border-radius: 200px 200px 0 0;
+  box-shadow: 3px 1px 8px rgba(0, 0, 0, 0.15) inset;
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+}
+
+#el {
+  border-radius: 200px 200px 0 0;
+  height: 100px;
+ 
+  margin: 5px auto 0;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+}
+
+#el:after {
+  background: #fff;
+  border-radius: 140px 140px 0 0;
+  bottom: 0;
+  box-shadow: 3px 1px 8px rgba(0, 0, 0, 0.15);
+  color: rgba(255, 80, 0, 0.7);
+  content: attr(data-value);
+  font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+  font-weight: 100;
+  height: 70px;
+  left: 30px;
+  line-height: 95px;
+  position: absolute;
+  text-align: center;
+  width: 140px;
+  z-index: 3;
+}
+
+span {
+  background: rgba(255, 80, 0, 0.7);
+  border-radius: 4px;
+  bottom: -4px;
+  box-shadow: 3px -1px 4px rgba(0, 0, 0, 0.4);
+  display: block;
+  height: 8px;
+  left: 10px;
+  position: absolute;
+  width: 90px;
+  transform-origin: 100% 4px;
+  transform: rotate(0deg);
+  transition: all 1s;
+}
+
